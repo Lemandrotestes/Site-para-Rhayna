@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Estilos do filme em destaque */
+.featured {
+    padding: 20px;
+}
+
+.featured h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.featured-movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-movie a {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.featured-movie a:hover {
+    background-color: #ff0000;
+}
+
+/* Estilos da seção de filmes recomendados */
+.recommended h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
